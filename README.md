@@ -24,7 +24,7 @@ All seven checkpoints are our trained FEVSSM models for the corresponding image 
 
 ## Code availability plan
 
-To improve transparency and facilitate verification of the reported experiments, the pretrained model weights are currently available through the file-specific Google Drive links above. This GitHub repository provides the download index but does not store copies of the weight files. The complete algorithm source code will be fully pushed to this repository immediately after formal acceptance of the paper, for the journal, readers, and the research community to consult and exchange. This staged release is intended to support both long-term code availability and an accurate statement of the materials currently public.
+To improve transparency and facilitate verification of the reported experiments, the pretrained model weights are currently available through the file-specific Google Drive links above. The complete algorithm source code will be fully pushed to this repository immediately after formal acceptance of the paper, for the journal, readers, and the research community to consult and exchange. This staged release is intended to support both long-term code availability and an accurate statement of the materials currently public.
 
 ## License
 
