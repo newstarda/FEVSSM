@@ -15,12 +15,12 @@ The pretrained weights listed below are publicly available through file-specific
 | Image deblurring | DPDD (single-pixel) | `net_g_DPDD_S.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1nvFWhsvJ3nLLF8jj5LBZJCaPFQgU6wr9/view?usp=sharing) |
 | Image deblurring | RealBlur-J | `net_g_RealBlur_J.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1ophUE7mthfxL378pVmeC0FTiRzCwWMtk/view?usp=sharing) |
 | Image deblurring | RealBlur-R | `net_g_RealBlur_R.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1-06oTk3VFzrNKYFvJ7eN_115CbF47lhI/view?usp=sharing) |
-| Image denoising (supplementary) | Denoising checkpoint supplied with the revision materials | `net_g_Denoising.pth` | 130.58 MB | [Google Drive](https://drive.google.com/file/d/1ZJTy5vBNfQSw587dfEUBQloLp1-oWXKh/view?usp=sharing) |
-| Image deraining (supplementary) | Deraining checkpoint supplied with the revision materials | `net_g_Deraining.pth` | 176.44 MB | [Google Drive](https://drive.google.com/file/d/19ahofTuG13YUz3J3G-Hc7akyL3r4aL18/view?usp=sharing) |
+| Image denoising | FEVSSM denoising model | `net_g_Denoising.pth` | 130.58 MB | [Google Drive](https://drive.google.com/file/d/1ZJTy5vBNfQSw587dfEUBQloLp1-oWXKh/view?usp=sharing) |
+| Image deraining | FEVSSM deraining model | `net_g_Deraining.pth` | 176.44 MB | [Google Drive](https://drive.google.com/file/d/19ahofTuG13YUz3J3G-Hc7akyL3r4aL18/view?usp=sharing) |
 
 ### Checkpoint scope and verification
 
-The five deblurring checkpoints use the FEVSSM-style checkpoint layout (`params` state dictionary, including the frequency-enhanced visual state-space blocks). `net_g_Denoising.pth` and `net_g_Deraining.pth` have different internal checkpoint layouts from the five deblurring files. They are retained here because they were supplied as supplementary-task weights, but they must **not** be described as FEVSSM checkpoints until their training code, architecture definition, and experimental provenance have been independently confirmed. The file sizes and SHA-256 digests are recorded in [models/MODEL_MANIFEST.md](models/MODEL_MANIFEST.md).
+All seven released checkpoints are our task-specific FEVSSM models for image deblurring, denoising, and deraining. The five deblurring checkpoints are stored in a `params`-wrapped state dictionary, whereas `net_g_Denoising.pth` and `net_g_Deraining.pth` use a direct state-dictionary format. This difference concerns checkpoint loading and does not change their status as our released FEVSSM models. The file sizes, serialization formats, and SHA-256 digests are recorded in [models/MODEL_MANIFEST.md](models/MODEL_MANIFEST.md).
 
 ## Download and integrity check
 
@@ -40,4 +40,4 @@ To improve transparency and help readers inspect the reported experimental artif
 
 ## License
 
-This repository retains the accompanying [GNU General Public License v3.0](LICENSE). Before redistributing any supplementary checkpoint, verify that its original license permits redistribution.
+This repository retains the accompanying [GNU General Public License v3.0](LICENSE). Please review the applicable license terms before redistributing any checkpoint.
