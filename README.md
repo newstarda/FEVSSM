@@ -4,7 +4,7 @@ Official project page for **Frequency-Domain Enhanced Visual State Space Model w
 
 ## Current availability
 
-The pretrained weights listed below are publicly available through file-specific Google Drive links. The weight files are not duplicated in this GitHub repository. The complete training and inference source code, together with auxiliary reproducibility materials, will be released in this repository immediately after the paper is formally accepted.
+The pretrained weights listed below are publicly available through file-specific Google Drive links.The complete training and inference source code, together with auxiliary reproducibility materials, will be released in this repository immediately after the paper is formally accepted.
 
 ## Pre-trained Models
 
@@ -28,4 +28,4 @@ To improve transparency and facilitate verification of the reported experiments,
 
 ## License
 
-This repository retains the accompanying [GNU General Public License v3.0](LICENSE). Please review the applicable license terms before redistributing any checkpoint.
+This repository retains the accompanying [GNU General Public License ](LICENSE). Please review the applicable license terms before redistributing any checkpoint.
