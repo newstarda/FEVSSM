@@ -18,25 +18,13 @@ The pretrained weights listed below are publicly available through file-specific
 | Image denoising | FEVSSM denoising model | `net_g_Denoising.pth` | 130.58 MB | [Google Drive](https://drive.google.com/file/d/1ZJTy5vBNfQSw587dfEUBQloLp1-oWXKh/view?usp=sharing) |
 | Image deraining | FEVSSM deraining model | `net_g_Deraining.pth` | 176.44 MB | [Google Drive](https://drive.google.com/file/d/19ahofTuG13YUz3J3G-Hc7akyL3r4aL18/view?usp=sharing) |
 
-### Checkpoint scope and verification
+### Model coverage
 
-All seven released checkpoints are our task-specific FEVSSM models for image deblurring, denoising, and deraining. The five deblurring checkpoints are stored in a `params`-wrapped state dictionary, whereas `net_g_Denoising.pth` and `net_g_Deraining.pth` use a direct state-dictionary format. This difference concerns checkpoint loading and does not change their status as our released FEVSSM models. The file sizes, serialization formats, and SHA-256 digests are recorded in [models/MODEL_MANIFEST.md](models/MODEL_MANIFEST.md).
-
-## Download and integrity check
-
-After downloading, verify the file against the SHA-256 value in the manifest. For example:
-
-```powershell
-Get-FileHash .\models\net_g_GoPro.pth -Algorithm SHA256
-```
-
-## Google Drive publication record
-
-The table above provides seven file-specific Google Drive links. Each checkpoint can be downloaded independently and verified against the corresponding SHA-256 digest in the model manifest.
+All seven checkpoints are our trained FEVSSM models for the corresponding image deblurring, denoising, and deraining tasks. Each Google Drive link in the table corresponds directly to the checkpoint filename listed in the same row and allows the model to be downloaded independently.
 
 ## Code availability plan
 
-To improve transparency and help readers inspect the reported experimental artifacts, the pretrained model weights are currently available through the file-specific Google Drive links above. This GitHub repository provides the download index and integrity information, but does not store copies of the weight files. The complete algorithm source code will be fully pushed to this repository immediately after formal acceptance of the paper, for the journal, readers, and the research community to consult and exchange. This staged release is intended to support both long-term code availability and an accurate statement of the materials currently public.
+To improve transparency and facilitate verification of the reported experiments, the pretrained model weights are currently available through the file-specific Google Drive links above. This GitHub repository provides the download index but does not store copies of the weight files. The complete algorithm source code will be fully pushed to this repository immediately after formal acceptance of the paper, for the journal, readers, and the research community to consult and exchange. This staged release is intended to support both long-term code availability and an accurate statement of the materials currently public.
 
 ## License
 
