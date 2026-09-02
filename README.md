@@ -8,15 +8,15 @@ The pretrained weights listed below are publicly available through file-specific
 
 ## Pre-trained Models
 
-| Task | Evaluation / training setting | Checkpoint | Size | Download |
-| :-- | :-- | :-- | --: | :-- |
-| Image deblurring | GoPro | `net_g_GoPro.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1uvzqm8Wd4SVvZPAV4W6OwYWlMmDB3jb_/view?usp=sharing) |
-| Image deblurring | DPDD (dual-pixel) | `net_g_DPDD_D.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1uhMtiblq3UYQckNkgfY6agDYnejS-wx5/view?usp=sharing) |
-| Image deblurring | DPDD (single-pixel) | `net_g_DPDD_S.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1nvFWhsvJ3nLLF8jj5LBZJCaPFQgU6wr9/view?usp=sharing) |
-| Image deblurring | RealBlur-J | `net_g_RealBlur_J.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1ophUE7mthfxL378pVmeC0FTiRzCwWMtk/view?usp=sharing) |
-| Image deblurring | RealBlur-R | `net_g_RealBlur_R.pth` | 149.81 MB | [Google Drive](https://drive.google.com/file/d/1-06oTk3VFzrNKYFvJ7eN_115CbF47lhI/view?usp=sharing) |
-| Image denoising | FEVSSM denoising model | `net_g_Denoising.pth` | 130.58 MB | [Google Drive](https://drive.google.com/file/d/1ZJTy5vBNfQSw587dfEUBQloLp1-oWXKh/view?usp=sharing) |
-| Image deraining | FEVSSM deraining model | `net_g_Deraining.pth` | 176.44 MB | [Google Drive](https://drive.google.com/file/d/19ahofTuG13YUz3J3G-Hc7akyL3r4aL18/view?usp=sharing) |
+| Task | Evaluation / training setting | Checkpoint | Download |
+| :-- | :-- | :-- | :-- |
+| Image deblurring | GoPro | `net_g_GoPro.pth` | [Google Drive](https://drive.google.com/file/d/1uvzqm8Wd4SVvZPAV4W6OwYWlMmDB3jb_/view?usp=sharing) |
+| Image deblurring | DPDD (dual-pixel) | `net_g_DPDD_D.pth` | [Google Drive](https://drive.google.com/file/d/1uhMtiblq3UYQckNkgfY6agDYnejS-wx5/view?usp=sharing) |
+| Image deblurring | DPDD (single-pixel) | `net_g_DPDD_S.pth` | [Google Drive](https://drive.google.com/file/d/1nvFWhsvJ3nLLF8jj5LBZJCaPFQgU6wr9/view?usp=sharing) |
+| Image deblurring | RealBlur-J | `net_g_RealBlur_J.pth` | [Google Drive](https://drive.google.com/file/d/1ophUE7mthfxL378pVmeC0FTiRzCwWMtk/view?usp=sharing) |
+| Image deblurring | RealBlur-R | `net_g_RealBlur_R.pth` | [Google Drive](https://drive.google.com/file/d/1-06oTk3VFzrNKYFvJ7eN_115CbF47lhI/view?usp=sharing) |
+| Image denoising | FEVSSM denoising model | `net_g_Denoising.pth` | [Google Drive](https://drive.google.com/file/d/1ZJTy5vBNfQSw587dfEUBQloLp1-oWXKh/view?usp=sharing) |
+| Image deraining | FEVSSM deraining model | `net_g_Deraining.pth` | [Google Drive](https://drive.google.com/file/d/19ahofTuG13YUz3J3G-Hc7akyL3r4aL18/view?usp=sharing) |
 
 ### Model coverage
 
