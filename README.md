@@ -8,9 +8,7 @@ The pretrained weights listed below are publicly available through file-specific
 
 ## Pre-trained Models
 
-| Task | Evaluation / training setting | Checkpoint | Download |
-| :-- | :-- | :-- | :-- |
-| Image deblurring | GoPro | `net_g_GoPro.pth` | [Google Drive](https://drive.google.com/file/d/1uvzqm8Wd4SVvZPAV4W6OwYWlMmDB3jb_/view?usp=sharing) |
+
 
 ## Code availability plan
 
